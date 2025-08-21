@@ -1,0 +1,1 @@
+(function(e){typeof define=="function"&&define.amd?define(e):e()})(function(){"use strict";const e=require("./ServerlessClient"),n=require("./utils/PendingCallMixin"),i=require("./utils/getBaseURL");async function t(s,r,l,c,u,o){return await new e(s,r,l,c,o).init()}module.exports={createServerlessAPIClient:t,PendingCallMixin:n,getBaseURL:i}});
